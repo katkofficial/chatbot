@@ -20,7 +20,7 @@ body {
 }
 
 .window {
-  height: 710px;
+  height: 680px;
   overflow-x: hidden;
   overflow-y: scroll;
 }
@@ -74,7 +74,11 @@ body {
   border-radius: 20px;
   margin-right: 25px;
 }
-
+.answer-buttons{
+  position: absolute;
+  bottom: 0;
+  width:100%;
+} 
 .answer-buttons input {
   max-width: 425px;
   width: 425px;
@@ -83,7 +87,9 @@ body {
   padding: 5px;
   background-color: rgb(252, 225, 250);
 }
-
+.start{
+  display: block;
+}
 .categories {
   display: none;
 }
